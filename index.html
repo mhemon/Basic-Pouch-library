@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using Pouch Library</title>
+  <!-- Include Pouch library -->
+  <script type="module" src="/core/core.js"></script>
+  <script type="module" src="/deps.js"></script>
+</head>
+<body>
+  <!-- Use components from the Pouch library -->
+  <announcement-link href="/" target="_blank" pill="New">
+    Click me
+   </announcement-link>
+
+  <!-- Basic HTML elements -->
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <button>Click me</button>
+
+  <!-- Basic Hero elements -->
+  <basic-hero>
+    <h1>Custom Title</h1>
+    <p>Custom Description</p>
+  </basic-hero>
+<!-- Dynamic News -->
+    <dynamic-news
+    href="#"
+    target="_blank"
+    pill="Dynamic News"
+    news='[{"href":"/","text":"News August","src":"https://dev.zaubrik.com/assets'>
+    </dynamic-news>
+    <!-- expending faq -->
+    <expanding-faq>
+        <li class="faqQuestion">Question 1<plus-minus-button></plus-minus-button></li>
+        <li class="faqAnswer">Answer 1</li>
+        <li class="faqQuestion">Question 2<plus-minus-button></plus-minus-button></li>
+        <li class="faqAnswer">Answer 2</li>
+    </expanding-faq>
+  <basic-footer right-pad>
+    <!-- Footer content goes here -->
+    <p>This is the footer content.</p>
+   </basic-footer>
+</body>   
+</html>
